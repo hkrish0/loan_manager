@@ -1,0 +1,27 @@
+<?php $this->widget('ext.GolunuGrid.Grid', 
+                  array(
+                        'id' => 'mygrid',
+                        'dataProvider' => $dataProvider,
+			'displayAddNewRow'=>true,
+                        'columns'=>array(
+                                          'EmployeeDesignationMasterId', //text box
+                                          
+                                          array( // combobox
+                                              
+                                              'name'=>'EmployeeDesignationMasterId',
+                                              'keyValue'=>'EmployeeDesignationMasterId',
+                                              'keyName'=>'DesignationName',
+                                              'dataType'=>'select',
+                                              'editable'=>true,
+                                              'model'=>Designation::model(),
+                                                              
+                                              ),
+
+                                          array( //delete button
+                                              'class' => 'DeleteButton',
+                                              'imageUrl' => Yii::app()->baseUrl . '/images/delete.png',
+                                              ),
+                                        )
+                        )
+    );
+    ?>

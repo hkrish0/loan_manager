@@ -1,0 +1,80 @@
+
+.grid-view table.items td{
+
+	font-size: 13px;
+
+}
+.grid-view table.items th{
+
+	background:white;
+	color:#1D943B;
+	font-size: 0.8em;
+	border-bottom:1px solid #1D943B;
+}
+
+/* Styles for ClinkPager */
+div.pager
+{
+	margin-top: -10px;
+	padding: 5px 0 0 0;
+	text-align: center;
+	height:35px;
+/*	color: #fff;*/
+	border:1px solid #1D943B;
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+        background-color: #DFF0D8;
+}
+
+.pager ul{
+
+	padding-top:5px;
+}
+
+ul.yiiPager
+{
+	font-size:.9em;
+
+}
+
+ul.yiiPager li
+{
+	display:inline;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+	border:solid 1px #ccc;
+	color:inherit;
+	font-weight:bold;
+	padding:2px 8px;
+	text-decoration:none;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius: 3px;
+}
+
+ul.yiiPager .page a
+{
+	font-weight: 600;
+}
+
+ul.yiiPager a:hover
+{
+	background:#339933;
+	color:#fff;
+}
+
+ul.yiiPager .selected a
+{
+	background:#339933;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.3em;
+}
+
+ul.yiiPager .hidden a
+{
+	border:1px solid #ccc;
+	color:inherit;
+}
