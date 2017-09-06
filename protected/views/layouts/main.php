@@ -49,7 +49,7 @@
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by Glossymob Pvt Ltd.<br/>
+		Copyright &copy; <?php echo date('Y'); ?> hkrish0 <br/>
 		All Rights Reserved.<br/>
 		<?php //echo Yii::powered(); ?>
 	</div><!-- footer -->
